@@ -38,14 +38,20 @@ Dict jointMotions = {
     },
     {"elbow_extension", {
         {"f_ratio", 1.0},
-        {"muscles", vector<string> {"TRILong", "TRILat", "TRIMed"}},
-        {"proportion", vector<double> {1, 0.929, 0.929}}
+        {"muscles", vector<string> {"TRILong", "TRILat", "TRIMed", "ANC"}},
+        {"proportion", vector<double> {1, 0.929, 0.929, 0.0}}
         }
     },
     {"hand_grip", {
         {"f_ratio", 1.1227},
-        {"muscles", vector<string> {"CC", "DD"}},
-        {"proportion", vector<double> {1, 0.7}}
+        {"muscles", vector<string> {"FDPL", "FDPR", "FDPM", "FDPI", "FDSL", "FDSR", "FDSM", "FDSI", "FPL"}},
+        {"proportion", vector<double> {1, 0, 0, 0, 0, 0, 0, 0, 0}}
+        }
+    },
+    {"shoulder_flexion_elbow180", {
+        {"f_ratio", 1.0},
+        {"muscles", vector<string> {"DELT1", "DELT2", "CORB", "PECM1", "PECM2", "PECM3", "BICLong"}},
+        {"proportion", vector<double> {1, 0, 0, 0, 0, 0, 0}}
         }
     }
 };

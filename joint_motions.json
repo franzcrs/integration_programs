@@ -5,13 +5,18 @@
         "proportion": [1, 0.603, 2.24, 0.525]
     }, 
     "elbow_extension": {
-        "f_ratio": 1,
-        "muscles": ["TRILong", "TRILat", "TRIMed"],
-        "proportion": [1, 0.929, 0.929]
+        "f_ratio": 1.0,
+        "muscles": ["TRILong", "TRILat", "TRIMed", "ANC"],
+        "proportion": [1, 0.929, 0.929, 0]
     }, 
     "hand_grip": {
         "f_ratio": 1.1227,
-        "muscles": ["CC", "DD"],
-        "proportion": [1, 0.7]
+        "muscles": ["FDPL", "FDPR", "FDPM", "FDPI", "FDSL", "FDSR", "FDSM", "FDSI", "FPL"],
+        "proportion": [1, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "shoulder_flexion_elbow180": {
+        "f_ratio": 1.0,
+        "muscles": ["DELT1", "DELT2", "CORB", "PECM1", "PECM2", "PECM3", "BICLong"],
+        "proportion": [1, 0, 0, 0, 0, 0, 0]
     }
 }
