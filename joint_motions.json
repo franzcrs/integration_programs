@@ -1,0 +1,17 @@
+{
+    "elbow_flexion": {
+        "f_ratio": 1.1616,
+        "muscles": ["BICLong", "BICShort", "BRA", "BRD"],
+        "proportion": [1, 0.603, 2.24, 0.525]
+    }, 
+    "elbow_extension": {
+        "f_ratio": 1,
+        "muscles": ["TRILong", "TRILat", "TRIMed"],
+        "proportion": [1, 0.929, 0.929]
+    }, 
+    "hand_grip": {
+        "f_ratio": 1.1227,
+        "muscles": ["CC", "DD"],
+        "proportion": [1, 0.7]
+    }
+}
